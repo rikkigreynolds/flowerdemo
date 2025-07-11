@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .bg-background {
-    background: #012169 !important;
+    background: #FFFFFF !important;
 }
 
 p {
-    color: #FFF !important;
+    color: #012169 !important;
 }
 
+
+/* headings */
+article :is(h1, h2, h3, h4, h5, h6) {
+    font-family: 'Bebas Neue', Calibri, sans-serif !important;
+    color: #0072CE;
+
+}
+
+/* body text */
+article :not(h1, h2, h3, h4, h5, h6) {
+    font-family: 'Monserrat', Helvetica, sans-serif !important;
+    color: #012169 !important;
+}
+
+nav {
+    font-family: 'Bebas Neue', Calibri, sans-serif !important;
+    color: #0072CE;
+    font-size: 1rem !important;
+}
