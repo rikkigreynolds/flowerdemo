@@ -1,3 +1,19 @@
 {
-  "showSidebar": true
+ "title": "markup project management portfolio demo",
+
+ "showSidebar": true,
+  "nav": {
+    "title": "markup project management portfolio demo",
+    "links": [
+      {
+        "href": "/signageplan",
+        "name": "Signage Audit"
+      },
+      {
+        "href": "/data",
+        "name": "Data (?)"
+      }
+    ]
+  }
+     
 }
